@@ -1,5 +1,5 @@
 /* Define altura total para HTML e BODY */
-html, body {
+body {
   height: 100%;
   margin: 0;
   padding: 0;
