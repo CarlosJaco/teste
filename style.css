@@ -1,20 +1,16 @@
-/* Define altura total para HTML e BODY */
+/* Reset de margem e altura total */
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
-}
-
-/* Aplica fundo verde e centraliza conteúdo */
-body {
-  background-color: #2ecc71; /* verde predominante */
+  background-color: #2ecc71; /* Fundo verde */
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Estiliza o container com fundo levemente escurecido */
+/* Estilo do container */
 .container {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 40px;
@@ -24,11 +20,13 @@ body {
   text-align: center;
 }
 
+/* Estilo do título */
 h1 {
   margin-bottom: 20px;
   font-size: 2rem;
 }
 
+/* Estilo dos parágrafos */
 p {
   margin: 10px 0;
   font-size: 1.1rem;
